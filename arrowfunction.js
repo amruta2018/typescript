@@ -1,0 +1,10 @@
+var noParamFn = function () { return console.log('No Parameter function'); };
+var oneParamFn = function (x) { return console.log('One Parameter function', x); };
+var oneParamFnAttribute1 = function (x) { return console.log('One Parameter function', x); };
+var oneParamFnAttribute2 = function (x) { return console.log('One explicit Parameter function', x); };
+var twoParamFnAttribute2 = function (x, y) { return console.log('Two Parameter function', x, y); };
+noParamFn();
+oneParamFn('Amruta');
+oneParamFnAttribute1(10);
+oneParamFnAttribute2('Amruta');
+twoParamFnAttribute2('asd', 3);
